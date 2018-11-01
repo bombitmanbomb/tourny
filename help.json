@@ -1,0 +1,102 @@
+{
+    "help": {
+        "description": "Gives Info about a command",
+        "usage": "help <command>",
+        "s":"general"
+    },
+    "ping": {
+        "description": "Pong",
+        "usage": "ping",
+        "s":"general"
+    },
+    "commands": {
+        "description": "List of Commands",
+        "usage": "commands ['admin']",
+        "s":"general"
+    },
+    "info": {
+        "description": "Info about the current competition",
+        "usage": "info",
+        "s":"tournament"
+    },
+    "host": {
+        "description": "Host a Tournament (Limit 1 per user)",
+        "usage": "host <public/private>(Do Users need an Invite?) <Max # of users (0 for infinate)> <Name of Competition>",
+        "s":"general"
+    },
+    "tournaments": {
+        "description": "List all Active Tournaments [for a given user]",
+        "usage": "tournaments [user]",
+        "s":"general"
+    },
+    "end": {
+        "description": "End the Tournament (Host Only)",
+        "usage": "end",
+        "s":"host"
+    },
+    "invite": {
+        "description": "Invite a user to your private tournament (Host Only)",
+        "usage": "invite <user>",
+        "s":"general"
+    },
+    "join": {
+        "description": "Join a Tournament",
+        "usage": "join <id>",
+        "s":"general"
+    },
+    "leave": {
+        "description": "Leave the current Tournament",
+        "usage": "leave",
+        "s":"tournament"
+    },
+    "setrules": {
+        "description": "Set the Rules for the Competition (Host Only)",
+        "usage": "setrules <message> (use \"\\n\" for new line. Ex: 1. No Swearing\\n2. Be Kind)",
+        "s":"host"
+    },
+    "setmotd": {
+        "description": "Set a message for users to see (Host Only)",
+        "usage": "setmotd <message>",
+        "s":"host"
+    },
+    "setuserlimit": {
+        "description": "set the competition userlimit (0 for infinite) (Host Only)",
+        "usage": "setuserlimit <#>",
+        "s":"host"
+    },
+    "setprivacy": {
+        "description": "allow/deny users to join your channel (Host Only)",
+        "usage": "setprivacy <public/private>",
+        "s":"host"
+    },
+    "setwinner": {
+        "description": "Declare the Tournament winner (Host Only)",
+        "usage": "setwinner <user>",
+        "s":"host"
+    },
+    "submit": {
+        "description": "Submit your score to be judged (Other Contestants will not see it)",
+        "usage": "submit <URL>",
+        "s":"tournament"
+    },
+    "submissions": {
+        "description": "View all current submissions (Judge Only)",
+        "usage": "submissions",
+        "s":"judge"
+    },
+    "clearsubmissions": {
+        "description": "Clear all current submissions (Host Only)",
+        "usage": "clearsubmissions",
+        "s":"host"
+    },
+    "kick": {
+        "description": "Kick a User from your competition (Host Only)",
+        "usage": "kick <@user>",
+        "s":"host"
+    },
+    "unsubmit": {
+        "description": "Retract your score from the submissions to re submit",
+        "usage": "unsubmit",
+        "s":"tournament"
+    }
+}

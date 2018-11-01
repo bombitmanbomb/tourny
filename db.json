@@ -1,0 +1,66 @@
+{
+  "complist": "497397906798673932",
+  "mainChannel": "493722553664405515",
+  "admins": [
+    "174609192340946944",
+    "194944794441547776",
+    "21098256329867264",
+    "52443471804760064",
+    "20352466330320897",
+    "07903857199181824",
+    "85589057894481922",
+    "75011060456226817"
+  ],
+  "info": [
+    {
+      "infoID": "499839469214629898",
+      "compid": 1
+    }
+  ],
+  "invites": [],
+  "tournaments": [
+    {
+      "privacy": "private",
+      "motd": "Official Discord Wide Tournament",
+      "rules": "Discord Server Rules Apply",
+      "userCountMax": "0",
+      "title": "Musescorian Discord Tournament #1",
+      "ownerId": "174609192340946944",
+      "ownerUsername": "bomb_and_kou#0669",
+      "infinite": true,
+      "users": [],
+      "judges": [
+        {
+          "id": "174609192340946944",
+          "username": "bomb_and_kou"
+        },
+        {
+          "id": "194944794441547776",
+          "username": "Pikaboo~♪ ☆【ピカバタ】☆"
+        },
+        {
+          "id": "220352466330320897",
+          "username": "Keldeo the Oboist (ﾉ◕ヮ◕)ﾉ*･ﾟ✧"
+        },
+        {
+          "id": "332251375758999552",
+          "username": "Bura"
+        }
+      ],
+      "submissions": [],
+      "channel": "499839467461279745",
+      "role": "499839467813601283",
+      "judgeChannel": "499839468224774155",
+      "judgeRole": "499839468832817162",
+      "id": 1,
+      "joinID": 1,
+      "winner": "Undecided",
+      "active": true
+    }
+  ],
+  "channels": [
+    "493722553664405515",
+    "499839467461279745",
+    "499839468224774155"
+  ]
+}

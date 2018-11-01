@@ -1,0 +1,1 @@
+nodemon --delay 1.5

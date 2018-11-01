@@ -1,0 +1,14 @@
+{
+    "authorize":{
+        "description":"Grant Administrative power to a given user",
+        "usage":"authorize <user id>"
+    },
+    "pban":{
+        "description":"Ban a user from using the bot. Sends the user a DM",
+        "usage":"pban <user>"
+    },
+    "unauthorize":{
+        "description":"Remove Administrative power to a given user",
+        "usage":"unauthorize <user id>"
+    }
+}
